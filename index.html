@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>환자 설문 관리</title>
+  <meta name="description" content="환자 설문지를 작성·접수하고 관리하는 PWA">
+  <meta name="theme-color" content="#1f6f5b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="환자설문">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand" id="brand">환자 설문</a>
+    <nav id="nav"></nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="js/db.js"></script>
+  <script src="js/defaults.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
